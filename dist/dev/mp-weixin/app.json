@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/registered/registered",
+    "pages/video/video",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tab/shouye-001.png",
+        "selectedIconPath": "static/tab/shouye-002.png"
+      },
+      {
+        "pagePath": "pages/registered/registered",
+        "text": "挂号",
+        "iconPath": "static/tab/guahao-001.png",
+        "selectedIconPath": "static/tab/guahao-002.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "医师课堂",
+        "iconPath": "static/tab/shipin-001.png",
+        "selectedIconPath": "static/tab/shipin-002.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tab/wode-001.png",
+        "selectedIconPath": "static/tab/wode-002.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
