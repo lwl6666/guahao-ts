@@ -1,66 +1,91 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "首页"
-			}
-		},
-		{
-			"path": "pages/registered/registered",
-			"style": {
-				"navigationBarTitleText": "挂号p"
-			}
-		},
-		{
-			"path": "pages/video/video",
-			"style": {
-				"navigationBarTitleText": "医师讲堂"
-			}
-		},
-		{
-			"path": "pages/mine/mine",
-			"style": {
-				"navigationBarTitleText": "我的"
-			}
-		}
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	},
-	"tabBar":{
-		"color":"#7A7E83",
-		"selectedColor":"#3cc51f",
-		"backgroundColor":"#ffffff",
-		"borderStyle":"black",
-		"list":[
-			{
-				"pagePath":"pages/index/index",
-				"text":"首页",
-				"iconPath":"static/tab/shouye-001.png",
-				"selectedIconPath":"static/tab/shouye-002.png"
-			},
-			{
-				"pagePath":"pages/registered/registered",
-				"text":"挂号",
-				"iconPath":"static/tab/guahao-001.png",
-				"selectedIconPath":"static/tab/guahao-002.png"
-			},
-			{
-				"pagePath":"pages/video/video",
-				"text":"医师课堂",
-				"iconPath":"static/tab/shipin-001.png",
-				"selectedIconPath":"static/tab/shipin-002.png"
-			},
-			{
-				"pagePath":"pages/mine/mine",
-				"text":"我的",
-				"iconPath":"static/tab/wode-001.png",
-				"selectedIconPath":"static/tab/wode-002.png"
-			}
-		]
-	}
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    //    新冠订单
+    {
+      "path": "pages/my-service/xinguan/index",
+      "style": {
+        "navigationBarTitleText": "新冠疫苗预约订单",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    },
+    {
+      "path": "pages/xinguan-vaccine/xinguan-vaccine",
+      "style": {
+        "navigationBarTitleText": "新冠疫苗接种预约"
+      }
+    },
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "navigationStyle": "custom"
+      }
+    },
+    //    订单
+
+    {
+      "path": "pages/registered/registered",
+      "style": {
+        "navigationBarTitleText": "挂号"
+      }
+    },
+    {
+      "path": "pages/video/video",
+      "style": {
+        "navigationBarTitleText": "医师讲堂"
+      }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/login-page/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tab/shouye-001.png",
+        "selectedIconPath": "static/tab/shouye-002.png"
+      },
+      {
+        "pagePath": "pages/registered/registered",
+        "text": "挂号",
+        "iconPath": "static/tab/guahao-001.png",
+        "selectedIconPath": "static/tab/guahao-002.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "医师课堂",
+        "iconPath": "static/tab/shipin-001.png",
+        "selectedIconPath": "static/tab/shipin-002.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tab/wode-001.png",
+        "selectedIconPath": "static/tab/wode-002.png"
+      }
+    ]
+  }
 }

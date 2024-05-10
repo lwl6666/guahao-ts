@@ -1,9 +1,12 @@
 {
   "pages": [
+    "pages/my-service/xinguan/index",
+    "pages/xinguan-vaccine/xinguan-vaccine",
     "pages/index/index",
     "pages/registered/registered",
     "pages/video/video",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/login-page/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",
